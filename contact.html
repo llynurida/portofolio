@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <style>
+    /* Reset CSS */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e7d3f0;
+}
+
+/* Container */
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Navbar */
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #d5c2e5;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.navbar ul li {
+  margin: 0 10px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.navbar ul li a.active {
+  text-decoration: underline;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.menu a:hover, .menu a.active {
+    color: #7c3aed;
+    text-decoration: underline;
+}
+
+
+/* Content */
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-form {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #a37ac3;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact-form button:hover {
+  background-color: #8e63b0;
+}
+
+/* Contact Info */
+.contact-info {
+  flex: 1;
+  background-color: #d9c8e9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="riwayat.html">Riwayat</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="project.html">Project</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="content">
+      <form class="contact-form">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" rows="6" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <div class="contact-info">
+        <p><strong>Home:</strong> Jl.DukuhGembong, Sindangkasih, Majalengka</p>
+        <p><strong>Phone:</strong> +6281328580964</p>
+        <p><strong>Email:</strong> nuridasusan344@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

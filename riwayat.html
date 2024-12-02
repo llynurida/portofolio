@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riwayat Pendidikan</title>
+  <style>
+    body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e7d3f0;
+}
+
+/* Container */
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Navbar */
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #d5c2e5;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.navbar ul li {
+  margin: 0 10px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.navbar ul li a.active {
+  text-decoration: underline;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.menu a:hover, .menu a.active {
+    color: #7c3aed;
+    text-decoration: underline;
+}
+    /* Reset and General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #d9c7e3;
+      color: #000;
+    }
+
+    header {
+      background-color: #cbb2dd;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      font-size: 18px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    nav a:hover, nav a.active {
+      text-decoration: underline;
+    }
+
+    /* Main Content */
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    .card-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: #f4f4f4;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      width: 200px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      font-size: 16px;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="riwayat.html" class="active">Riwayat</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="project.html">Project</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+</body>
+
+  <main class="container">
+    <section class="card-container">
+      <div class="card">
+        <img src="tk.svg" alt="TK Budi Asih">
+        <h3>TK Budi Asih 6</h3>
+      </div>
+      <div class="card">
+        <img src="sd.svg" alt="SDN Sindangkasih">
+        <h3>SDN Sindangkasih 3</h3>
+      </div>
+      <div class="card">
+        <img src="mts.svg" alt="MTS Miftahul Huda">
+        <h3>MTS Miftahul Huda</h3>
+      </div>
+      <div class="card">
+        <img src="smk.svg" alt="SMKN 1 Maja">
+        <h3>SMKN 1 Maja</h3>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

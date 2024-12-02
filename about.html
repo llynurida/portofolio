@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e7d3f0;
+}
+/* Container */
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Navbar */
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #d5c2e5;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.navbar ul li {
+  margin: 0 10px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.navbar ul li a.active {
+  text-decoration: underline;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.menu a:hover, .menu a.active {
+    color: #7c3aed;
+    text-decoration: underline;
+}
+
+
+/* Content */
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-form {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #a37ac3;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact-form button:hover {
+  background-color: #8e63b0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #D4C2E5;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header nav a.active {
+    text-decoration: underline;
+}
+
+main {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #E6D9F0;
+    border-radius: 15px;
+}
+
+.about-me .content {
+    flex: 1;
+    padding-right: 20px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.about-me .profile-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-me .profile-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #D4C2E5;
+    padding: 10px;
+    object-fit: cover;
+}
+    
+    </style>
+</head>
+<body>
+        <div class="container">
+            <nav class="navbar">
+              <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Me</a></li>
+                <li><a href="riwayat.html" >Riwayat</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="contact.html" >Contact</a></li>
+              </ul>
+            </nav>
+    
+    <main>
+        <section class="about-me">
+            <div class="content">
+                <p>
+                    I am someone who believes that life is a journey full of lessons. Every day is an opportunity to grow, learn from mistakes, and be better than the day before. 
+                    I love challenges, because for me, behind every difficulty there is always wisdom waiting to be found. I try to live life with optimism, even though sometimes the road is not easy.
+                </p>
+                <p>
+                    Even though I'm far from perfect, I always try to be the best version of myself. I want to be someone who is not only successful for myself, but also brings benefits to other people around me. 
+                    Because in the end, life is not only about what we achieve, but also about how we give meaning to our presence in this world.
+                </p>
+            </div>
+            <div class="profile-image">
+                <img src="profile.jpg" alt="Profile Picture">
+            </div>
+        </section>
+    </main>
+</body>
+</html>
